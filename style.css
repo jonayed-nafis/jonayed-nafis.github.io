@@ -1,0 +1,88 @@
+.topnav{
+	position: relative;
+	text-align: center;
+	right: 0;
+  	top: 0;
+ 	left: 0;
+  	padding: 1rem;
+ 	background-color: #efefef;
+
+}
+
+body { 
+	background-image: url("himbg.jpg");
+	background-position: center;
+	background-attachment: fixed;
+	background-size: 800px;
+	background-repeat: no-repeat;
+
+	
+}
+
+
+h1,h2, h3{
+	text-align: center;
+	color: #597673;
+	border-style: solid;
+	border-color: #9AA4A3;
+}
+
+
+.p1{
+
+	text-align: center;
+}
+
+
+.wrapper{
+	text-align: center;
+	border-style: groove;
+	border-color: coral;
+	border-width: 2px;
+}
+
+
+.footer{
+	position: relative;
+	text-align: center;
+ 	right: 0;
+  	bottom: 0;
+ 	left: 0;
+  	padding: 5px;
+ 	background-color: #efefef;
+	
+}
+
+.table{
+	text-align: center;
+	padding: 10px;
+	border-top: solid;
+	border-bottom: solid;
+}
+
+.tablewrap{
+	margin-left: 20%;
+	margin-right: 20%;
+	text-align: center;;
+	border:solid;
+	border-spacing: 10px;
+
+
+}
+a{
+	text-decoration: none;
+}
+a:hover {
+    background-color: teal;
+
+}
+
+.modDate{
+	text-align: center;
+	font-size: 10px;
+
+}
+ 
+
+
+

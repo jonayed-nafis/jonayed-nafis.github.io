@@ -1,0 +1,26 @@
+
+h1, h2{
+	text-align: center;
+	color: #597673;
+
+}
+
+
+textarea{
+	display: block;
+	margin: auto;
+
+}
+body{
+	background-image: url("warp.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+
+
+}
+
+
+
+.wrapper{
+	text-align: center;
+}
