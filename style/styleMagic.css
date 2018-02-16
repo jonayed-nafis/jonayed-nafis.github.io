@@ -12,7 +12,7 @@ textarea{
 
 }
 body{
-	background-image: url("warp.jpg");
+	background-image: url("../images/warp.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 

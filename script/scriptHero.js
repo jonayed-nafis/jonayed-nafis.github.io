@@ -1,60 +1,18 @@
-/*var value = document.getElementById("inpSeries").value.split(",");
-alert(value);
-*/
-var input = document.getElementById("inpSeries");
-var inpArray = [];
-var sum = 0;
-var avg = 0;
-input.onchange = function () {MMSAR()};
 
-
-function MMSAR(){
-	inpArray = input.value.split(",");
-	Max();
-	Min();
-	Reverse();
-	Sum();
-	Average();
-}
-function Max(){
-	var tempArray = inpArray.map((a) => (a));
-	tempArray.sort((a, b) => a - b);
-	const max = tempArray[tempArray.length - 1];
-	document.getElementById("max").innerHTML = max; 
-
-}
-
-function Min(){
-	var tempArray = inpArray.map((a) => (a));
-	tempArray.sort((a, b) => a - b);
-	const min = tempArray[0];
-	document.getElementById("min").innerHTML = min; 
-}
-
-
-function Sum(){	
-	for(var i = 0; i<inpArray.length; i++){
-		sum += parseInt(inpArray[i]);
-	}
-	document.getElementById("sum").innerHTML = sum;
-
-}
-
-function Average(){
-	avg = sum / inpArray.length;
-	console.log(avg);
-	document.getElementById("avg").innerHTML = avg;
-	
-	
-
-}
-
-function Reverse(){
-	var tempArray = inpArray.map((a) => (a));
-	tempArray.reverse()
-	document.getElementById("rev").innerHTML = tempArray;	
-	
-
+function convert(){
+	var inpValue = document.getElementById("inputValue").value;
+	/*console.log(inpValue);*/
+	var type = document.getElementById("convertValue").value;
+	var output = 0;
+		if (type==="1") {
+      /*console.log("kg to lb");*/
+			output =  inpValue*0.4536;
+		}
+		else{
+      /*console.log("lb to kg");*/
+			output =  inpValue*2.2046;
+		}
+	document.getElementById("output").innerHTML = output;	
 }
 
 
@@ -103,14 +61,3 @@ balls.forEach((el, i, ra) => {
     }
   );
 });
-
-
-
-
-
-
-
-
-
-
-

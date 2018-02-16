@@ -71,7 +71,7 @@ function stripBlank(){
 	input = input.filter(function(str){
 		return /\S/.test(str);
 	});
-	console.log(input);
+	/*console.log(input);*/
 	var output = "";
 	for (var i = 0; i < input.length; i++){
 		input[i] = input[i].trim();
@@ -111,7 +111,7 @@ function shuffle() {
     for (let i = input.length - 1; i > 0; i--) {
         const j = Math.floor(Math.random() * (i + 1));
         [input[i], input[j]] = [input[j], input[i]];
-        console.log(input);
+        /*console.log(input);*/
     }
     var output = "";
 	for (var i = 0; i < input.length; i++) {

@@ -14,10 +14,15 @@ var quotes = ["Two things are infinite: the universe and human stupidity; and I'
 	];
 
 
+var fontFamily = ["Arial", "Helvetica", "sans-serif", "Impactsans-serif", "Times New Roman", "Times", "serif"];
+var color = ["ash", "pink", "silver", "cyan", "magenta", "red", "maroon", "blue", "green", "peach"];
+
 function quoteChange(){
 	var randomNum = Math.floor(Math.random()*(quotes.length));
 	document.getElementById('quotes').innerHTML = quotes[randomNum];
-	document.getElementById('quotes').style.fontFamily="Impactsans-serif";
+	document.getElementById('quotes').style.fontFamily= fontFamily[randomNum];
+	document.getElementById("wrap").style.backgroundColor = color[randomNum];
+
 
 }
 

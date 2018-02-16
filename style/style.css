@@ -1,0 +1,160 @@
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    z-index: 2;
+}
+
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: teal;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+	background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.counter{
+	
+
+}
+
+
+
+
+
+
+
+html{
+	background-image: url("../images/himbg.jpg");
+
+}
+
+
+body { 
+	/*background-image: url("images/himbg.jpg");*/
+	height: 100%;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: auto;
+	background-repeat: no-repeat;
+	z-index: -2;
+	
+}
+
+
+h1,h2, h3{
+	text-align: center;
+	font-weight: bold;
+
+	color: #597899;
+	border-style: groove;
+	border-width: 15px;
+	border-color: teal;
+	z-index: 2;
+}
+
+
+.p1{
+	font-weight: bold;
+	font-size: 20px;
+	text-align: center;
+}
+
+
+.wrapper{
+	background-color: gray;
+	text-align: center;
+	border-style: groove;
+	border-color: teal;
+	border-width: 10px;
+	opacity: 0.8;
+	/*width: 40%;*/
+
+
+	
+}
+
+
+.quotes{
+	font-size: 20;
+	font-family: sans-serif;
+	font-weight: bolder;
+}
+
+
+.footer{
+	
+	text-align: center;
+ 	background-color: #333;
+ 	width: 100%;
+ 	bottom: 0;
+ 	color: silver;
+ 	
+	
+}
+
+table, th, td{
+	text-align: center;
+	padding: 10px;
+	border: 2px solid #597673;
+}
+
+.tablewrap{
+
+	text-align: center;;
+
+}
+
+
+.modDate{
+	text-align: center;
+	font-size: 14px;
+	color: silver;
+
+}
+
+
+
+
+
